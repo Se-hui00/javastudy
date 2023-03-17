@@ -1,0 +1,23 @@
+client : 요청자 
+server : 제공자 
+
+PL/SQL 변수의 종류
+1. 단순변수
+	스칼라변수(number,varchar2,date,..)
+	참조변수(테이블명.속성%type, 테이블명%rowtype)
+2. 복합변수
+	RECORD TYPE
+	TABLE  TYPE => 컬렉션
+3. 컬렉션 타입 만들기 : 레코드 타입으로 만든다
+	
+	type 타입명 is table of 레코드타입 index by binary_integer 
+	
+	- 레코드타입
+		1. 단일열 : 테이블명.속성%type
+		2. 다중열 : 테이블명%rowtype, RECORD TYPE
+		
+select 문을 통해 나올 수 있는 결과셋(result set)
+1. 단일값 = 단일행 단일열(스칼라) : 스칼라변수, 참조변수(테이블명.속성%type)
+2. 단일행 다중열 : 테이블%rowtype, 사용자정의 record type 
+3. 다중행 단일열 : 커서를 이용해서 loop, 컬렉션에 담아서 loop
+4. 다중행 다중열 : 커서를 이용해서 loop, 컬렉션에 담아서 loop

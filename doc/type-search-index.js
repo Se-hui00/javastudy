@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.kh.dic2","l":"Dictionary"},{"p":"com.kh.dic2","l":"DictionaryException"},{"p":"com.kh.dic2","l":"DictionaryMain"},{"p":"com.kh.dic2","l":"Test"},{"p":"com.kh.dic2","l":"Test2"}]
